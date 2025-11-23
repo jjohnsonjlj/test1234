@@ -3,8 +3,9 @@
 }
 
 a:hover {
-   font-size: 30px;
-   background-color: rgb(226, 242, 123);
+    font-size: 20px;
+    background-color: rgb(88, 13, 192);
+    color: rgb(249, 28, 28);
 }
 
 body {
