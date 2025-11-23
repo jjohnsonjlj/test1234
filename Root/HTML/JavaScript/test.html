@@ -1,0 +1,104 @@
+<html>
+
+<head>
+
+
+
+
+</head>
+
+
+
+<body>
+
+  <p id="p1" name="n1"> Hi </p>
+
+  <form method="GET">
+    <textarea name="feedback">Write your response here. </textarea>
+    <input id="sub" type="submit">
+  </form>
+
+</body>
+
+<script>
+  var y = "hello";
+
+
+  var x1 = document.getElementById("p1");
+  x1.innerText = "Hello, darkness my old friend!";
+  x1.style.color = "red";
+
+
+  document.writeln("Today is " + Date() + "<br>"
+  );
+
+  // document.getElementById("sub").click();
+
+  var abc = 18;
+
+  let xyz = 18;
+
+
+  function f1() {
+
+    let xyz = 19;
+    //alert("y=" + y);
+    //alert("xyz=" + xyz);
+  }
+
+
+  f1();
+
+ // alert("xyz=" + xyz);
+
+</script>
+
+
+<script>
+
+   class Student {
+
+    constructor(name, rollNo) {
+      this.name = name;
+      this.rollNo = rollNo;
+    }
+  }
+
+  class Teacher {
+
+    constructor(name, exp) {
+      this.name = name;
+      this.exp = exp;
+    }
+
+    f1(){
+      console.log("Hi In side Teacher's f1 method");
+    }
+
+  };
+
+  let teacher1 = new Teacher("Dan", 12);
+  teacher1.f1();
+
+  teacher1 instanceof  Teacher ; // true
+  teacher1 instanceof  Student ; // false
+
+</script>
+
+<script>
+let x55="16";
+let x56=5;
+
+console.log(x55+x56); // 165 not 21
+
+let x100="22";
+let x101=22;
+
+console.log("comparing using ==",x100==x101) ; // true or false?
+
+console.log("comparing using ===", x100===x101) ; // true or false?
+
+</script>
+
+
+</html>
